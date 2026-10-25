@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated data and private browser session
+downloads/
+.ice-profile/
+config/report_catalog.csv
+config/report_options.csv
+
+# Local OpenCode / Playwright MCP setup (kept locally, not committed)
+/.opencode/
+/.playwright-mcp/
+/opencode.json
+/package.json
+/package-lock.json
+/node_modules/
+
+# macOS
+.DS_Store

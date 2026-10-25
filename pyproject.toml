@@ -1,0 +1,15 @@
+[project]
+name = "ong_ice_report_downloader"
+version = "0.1.0"
+description = "Download configured ICE End-of-Day reports and merge their tables into CSV."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pdfplumber>=0.11,<1",
+    "playwright>=1.40,<2",
+    "requests>=2.31,<3",
+]
+
+[project.urls]
+Repository = "https://github.com/Oneirag/ong_ice_report_downloader"
+Issues = "https://github.com/Oneirag/ong_ice_report_downloader/issues"
